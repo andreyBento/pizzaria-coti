@@ -1,12 +1,10 @@
 <div class="creation-card">
   <img src="../../../assets/img/pizza.svg" alt="Pizza">
   <form action="" id="form-flavors">
-    <!-- <select name="" id="">
-      <option value="1">1</option>
-      <option value="2">2</option>
-    </select> -->
-    <button class="add-flavor" *ngIf="canAddFlavor" (click)="addSelect()">+</button>
-    <button class="remove-flavor" *ngIf="canRemoveFlavor" (click)="removeSelect()">-</button>
+    <div class="buttons">
+      <button id="add-flavor" class="add-flavor" *ngIf="canAddFlavor" (click)="addSelect()">+</button>
+      <button id="remove-flavor" class="remove-flavor" *ngIf="canRemoveFlavor" (click)="removeSelect()">-</button>
+    </div>
   </form>
   <p>R$: 10,00</p>
 </div>

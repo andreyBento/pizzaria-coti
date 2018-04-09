@@ -40,15 +40,15 @@ export class CreationCardComponent implements OnInit {
   removeSelect(id: number) {
     event.preventDefault();
 
+    this.canAddFlavor = true;
+
     this.flavors--;
+    this.addToDom.removeComponent();
 
     if (this.flavors === 1) {
       this.canRemoveFlavor = false;
     }
 
-    this.canAddFlavor = true;
-
-    this.addToDom.removeComponent();
   }
 
 }

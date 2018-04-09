@@ -13,3 +13,13 @@
   max-width: 200px;
   margin: 0 auto 20px;
 }
+
+.creation-card .add-flavor,
+.creation-card .remove-flavor{
+  display: inline-block;
+  margin-bottom: 5px;
+  width: 49%;
+  padding: 5px 10px;
+  box-shadow: none;
+  border: none;
+}
