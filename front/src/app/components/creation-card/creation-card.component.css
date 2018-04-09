@@ -1,0 +1,15 @@
+.creation-card{
+  width: 25%;
+  max-width: 250px;
+  padding: 20px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 8px 0 rgba(0,0,0, 0.3);
+}
+
+.creation-card img{
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto 20px;
+}
