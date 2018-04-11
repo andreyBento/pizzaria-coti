@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package pizzaria;
+package flavors;
 
 /**
  *
@@ -41,4 +41,9 @@ public class Flavors {
     public void setPrice(double price) {
         this.price = price;
     }
+    
+    public static void main(String args[]){
+        System.out.println("Trabalho da Coti");
+    }
+            
 }

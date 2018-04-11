@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package pizzaria;
+package flavors;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -18,13 +18,13 @@ public class IFlavorsDao implements FlavorsDao {
 	
     public IFlavorsDao() {
 
-        Flavors f1 = new Flavors(1,"mussarela",10.50);
-        Flavors f2 = new Flavors(2,"bacon com catupiry",14);
-        Flavors f3 = new Flavors(3,"calabresa",12.50);
-        Flavors f4 = new Flavors(4,"peperoni",13.50);
-        Flavors f5 = new Flavors(4,"frango com catupiry",15.50);
-        Flavors f6 = new Flavors(4,"carne seca com catupiry",15.50);
-        Flavors f7 = new Flavors(4,"bacalhau",16);
+        Flavors f1 = new Flavors(1,"mussarela",5);
+        Flavors f2 = new Flavors(2,"bacon com catupiry",7);
+        Flavors f3 = new Flavors(3,"calabresa",6.50);
+        Flavors f4 = new Flavors(4,"peperoni",7.50);
+        Flavors f5 = new Flavors(4,"frango com catupiry",8.50);
+        Flavors f6 = new Flavors(4,"carne seca com catupiry",8.50);
+        Flavors f7 = new Flavors(4,"bacalhau",9);
 
         this.BANCO.add(f1);
         this.BANCO.add(f2);

@@ -1,4 +1,3 @@
-<select name="" id="">
-  <option value="1">1</option>
-  <option value="2">2</option>
+<select name="" id="" *ngFor="let flavor of flavors">
+  <option value="{{flavor.id}}">{{flavor.name}}</option>
 </select>
